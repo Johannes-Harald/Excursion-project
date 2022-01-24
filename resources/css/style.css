@@ -14,17 +14,16 @@ h1 {
     text-align: center;
 }
 
-p {
-  font-size: 16px;
-  color: aquamarine;
-  text-align: center;
-  
+#banner .content p {
+    text-decoration: underline;
+    color: aquamarine;
+    font-size: 17px;
 }
 
 #iphone {
   height: 700px; 
   padding-top: 70px; 
-  margin-left: 150px;
+ 
 }
 
 /* Last section*/
@@ -36,18 +35,26 @@ p {
     color: white;
 }
 
-#last .content img {
-    position: relative;
-}
-
 #last .content p {
-    color: white;
-    font-size: 20px;
+    color: gray;
+    font-size: 21px;
 }
 
-#last .content img {
-    bottom: 0;
-    
-    left: 20;
-    
+p {
+  color: gray;
+}
+
+#last .content h1 {
+    color: white;
+}
+
+#last .content #lastp {
+    text-decoration: underline;
+    color: aquamarine;
+    font-size: 16px;
+}
+
+#last .content #iphone{
+    height: 527px;
+    width: 827px;
 }
