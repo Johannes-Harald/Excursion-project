@@ -58,3 +58,9 @@ p {
     height: 527px;
     width: 827px;
 }
+
+#last .content #copyright {
+    color: gray;
+    font-size: 21px;
+    text-align: right;
+}
